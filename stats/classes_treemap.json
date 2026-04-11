@@ -1,0 +1,54 @@
+{
+  "type": "treemap",
+  "title": "Class Treemap",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "Sealed Longitudinal Crack",
+          "y": 13610
+        },
+        {
+          "x": "Reflective Crack",
+          "y": 12428
+        },
+        {
+          "x": "Lane Longitudinal Crack",
+          "y": 12102
+        },
+        {
+          "x": "Block Crack",
+          "y": 9709
+        },
+        {
+          "x": "Sealed Reflective Crack",
+          "y": 5910
+        },
+        {
+          "x": "Transvers Crack",
+          "y": 5343
+        },
+        {
+          "x": "Aligator Crack",
+          "y": 4838
+        },
+        {
+          "x": "Longitudinal Crack",
+          "y": 2892
+        },
+        {
+          "x": "pothole",
+          "y": 637
+        },
+        {
+          "x": "Sealed Block Crack",
+          "y": 2
+        },
+        {
+          "x": "Sealed Transvers Cracks",
+          "y": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "total_images": 7237,
+  "total_annotations": 67472,
+  "total_classes": 11,
+  "splits_breakdown": {
+    "data": {
+      "images": 7237,
+      "annotations": 67472,
+      "classes": {
+        "Reflective Crack": 12428,
+        "Lane Longitudinal Crack": 12102,
+        "Transvers Crack": 5343,
+        "Sealed Reflective Crack": 5910,
+        "Aligator Crack": 4838,
+        "pothole": 637,
+        "Block Crack": 9709,
+        "Longitudinal Crack": 2892,
+        "Sealed Longitudinal Crack": 13610,
+        "Sealed Transvers Cracks": 1,
+        "Sealed Block Crack": 2
+      }
+    }
+  }
+}

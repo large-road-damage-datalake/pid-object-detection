@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "pid-object-detection",
+    "name": "PID Object Detection",
+    "short_name": "pid-od",
+    "description": "Object detection packaging of the PID pavement image dataset with VOC box-level distress annotations.",
+    "year": 2020
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "Reflective Crack",
+      "Transvers Crack",
+      "Block Crack",
+      "Longitudinal Crack",
+      "Aligator Crack",
+      "Sealed Reflective Crack",
+      "Sealed Block Crack",
+      "Sealed Transvers Cracks",
+      "Lane Longitudinal Crack",
+      "Sealed Longitudinal Crack",
+      "pothole"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "Google Street View wide-view imagery",
+    "resolution": "640x640 processed annotations (source varies)",
+    "lighting_conditions": "Real-world street scenes with variable lighting and occlusion",
+    "capture_height_mm": "Not reported",
+    "geotagged": true
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "PASCAL VOC XML box-level pavement distress labels",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Reflective Crack",
+          "description": "PID distress class: Reflective Crack",
+          "color": "#254361"
+        },
+        {
+          "id": 2,
+          "name": "Transvers Crack",
+          "description": "PID distress class: Transvers Crack",
+          "color": "#4A86C2"
+        },
+        {
+          "id": 3,
+          "name": "Block Crack",
+          "description": "PID distress class: Block Crack",
+          "color": "#6FC924"
+        },
+        {
+          "id": 4,
+          "name": "Longitudinal Crack",
+          "description": "PID distress class: Longitudinal Crack",
+          "color": "#940D85"
+        },
+        {
+          "id": 5,
+          "name": "Aligator Crack",
+          "description": "PID distress class: Aligator Crack",
+          "color": "#B950E6"
+        },
+        {
+          "id": 6,
+          "name": "Sealed Reflective Crack",
+          "description": "PID distress class: Sealed Reflective Crack",
+          "color": "#DE9348"
+        },
+        {
+          "id": 7,
+          "name": "Sealed Block Crack",
+          "description": "PID distress class: Sealed Block Crack",
+          "color": "#04D6A9"
+        },
+        {
+          "id": 8,
+          "name": "Sealed Transvers Cracks",
+          "description": "PID distress class: Sealed Transvers Cracks",
+          "color": "#291A0B"
+        },
+        {
+          "id": 9,
+          "name": "Lane Longitudinal Crack",
+          "description": "PID distress class: Lane Longitudinal Crack",
+          "color": "#4E5D6C"
+        },
+        {
+          "id": 10,
+          "name": "Sealed Longitudinal Crack",
+          "description": "PID distress class: Sealed Longitudinal Crack",
+          "color": "#73A0CD"
+        },
+        {
+          "id": 11,
+          "name": "pothole",
+          "description": "PID distress class: pothole",
+          "color": "#98E32F"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 7237,
+    "n_annotations": 67472,
+    "n_images_with_annotations": 7237,
+    "average_annotations_per_image": 9.323200221086086,
+    "image_format": "voc",
+    "class_distribution": {
+      "Reflective Crack": 12428,
+      "Lane Longitudinal Crack": 12102,
+      "Transvers Crack": 5343,
+      "Sealed Reflective Crack": 5910,
+      "Aligator Crack": 4838,
+      "pothole": 637,
+      "Block Crack": 9709,
+      "Longitudinal Crack": 2892,
+      "Sealed Longitudinal Crack": 13610,
+      "Sealed Transvers Cracks": 1,
+      "Sealed Block Crack": 2
+    },
+    "split": {
+      "data": {
+        "n_images": 7237,
+        "percentage": 1.0
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "United States",
+        "image_count": 7237
+      }
+    ],
+    "temporal_scope": "Published 2020"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Manually annotated wide-view images reported in source publication",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published benchmark dataset"
+  },
+  "authors": [
+    {
+      "name": "Hamed Majidifard",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Peng Jin",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "William G. Buttlar",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yaw Adu-Gyamfi",
+      "affiliation": "University of Missouri",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "No explicit license stated in source repository",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/pid-object-detection",
+    "download": "https://github.com/Nan2020/PID-Pavement-Image-Dataset",
+    "paper": "https://doi.org/10.1177/0361198120907283",
+    "homepage": "https://github.com/Nan2020/PID-Pavement-Image-Dataset"
+  },
+  "citation": {
+    "bibtex": "@article{majidifard2020pid,\n  title = {PID: A New Benchmark Dataset to Classify and Densify Pavement Distresses},\n  author = {Majidifard, Hamed and Jin, Peng and Buttlar, William G. and Adu-Gyamfi, Yaw},\n  journal = {Transportation Research Record},\n  year = {2020},\n  doi = {10.1177/0361198120907283}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "pavement-distress",
+    "pid",
+    "voc",
+    "united-states"
+  ],
+  "source_publication": {
+    "dataset_doi": "Not provided",
+    "article_doi": "10.1177/0361198120907283",
+    "article_title": "PID: A New Benchmark Dataset to Classify and Densify Pavement Distresses",
+    "journal": "Transportation Research Record",
+    "year": 2020
+  }
+}

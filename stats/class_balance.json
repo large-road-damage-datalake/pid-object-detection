@@ -1,0 +1,83 @@
+{
+  "columns": [
+    "Class",
+    "Share(%)",
+    "Objects",
+    "Objects per image"
+  ],
+  "data": [
+    [
+      "Sealed Longitudinal Crack",
+      20.17,
+      13610,
+      1.881
+    ],
+    [
+      "Reflective Crack",
+      18.42,
+      12428,
+      1.717
+    ],
+    [
+      "Lane Longitudinal Crack",
+      17.94,
+      12102,
+      1.672
+    ],
+    [
+      "Block Crack",
+      14.39,
+      9709,
+      1.342
+    ],
+    [
+      "Sealed Reflective Crack",
+      8.76,
+      5910,
+      0.817
+    ],
+    [
+      "Transvers Crack",
+      7.92,
+      5343,
+      0.738
+    ],
+    [
+      "Aligator Crack",
+      7.17,
+      4838,
+      0.669
+    ],
+    [
+      "Longitudinal Crack",
+      4.29,
+      2892,
+      0.4
+    ],
+    [
+      "pothole",
+      0.94,
+      637,
+      0.088
+    ],
+    [
+      "Sealed Block Crack",
+      0.0,
+      2,
+      0.0
+    ],
+    [
+      "Sealed Transvers Cracks",
+      0.0,
+      1,
+      0.0
+    ]
+  ],
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 50
+  }
+}

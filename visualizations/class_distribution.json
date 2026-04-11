@@ -1,0 +1,46 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "Reflective Crack",
+      "Lane Longitudinal Crack",
+      "Transvers Crack",
+      "Sealed Reflective Crack",
+      "Aligator Crack",
+      "pothole",
+      "Block Crack",
+      "Longitudinal Crack",
+      "Sealed Longitudinal Crack",
+      "Sealed Transvers Cracks",
+      "Sealed Block Crack"
+    ],
+    "values": [
+      12428,
+      12102,
+      5343,
+      5910,
+      4838,
+      637,
+      9709,
+      2892,
+      13610,
+      1,
+      2
+    ],
+    "total": 67472,
+    "percentages": [
+      18.42,
+      17.94,
+      7.92,
+      8.76,
+      7.17,
+      0.94,
+      14.39,
+      4.29,
+      20.17,
+      0.0,
+      0.0
+    ]
+  }
+}
