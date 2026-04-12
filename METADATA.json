@@ -28,6 +28,9 @@
   },
   "imaging_setup": {
     "camera": "Google Street View wide-view imagery",
+    "camera_viewpoint": [
+      "wide-view"
+    ],
     "resolution": "640x640 processed annotations (source varies)",
     "lighting_conditions": "Real-world street scenes with variable lighting and occlusion",
     "capture_height_mm": "Not reported",
@@ -129,7 +132,9 @@
     "split": {
       "data": {
         "n_images": 7237,
-        "percentage": 1.0
+        "percentage": 1.0,
+        "n_images_with_annotations": 7237,
+        "annotation_coverage": 1.0
       }
     }
   },

@@ -1,0 +1,50 @@
+{
+  "generated": true,
+  "dir": "visualizations/spatial_heatmaps",
+  "classes": [
+    {
+      "class": "Sealed Longitudinal Crack",
+      "file": "visualizations/spatial_heatmaps/Sealed_Longitudinal_Crack.png"
+    },
+    {
+      "class": "Reflective Crack",
+      "file": "visualizations/spatial_heatmaps/Reflective_Crack.png"
+    },
+    {
+      "class": "Lane Longitudinal Crack",
+      "file": "visualizations/spatial_heatmaps/Lane_Longitudinal_Crack.png"
+    },
+    {
+      "class": "Block Crack",
+      "file": "visualizations/spatial_heatmaps/Block_Crack.png"
+    },
+    {
+      "class": "Sealed Reflective Crack",
+      "file": "visualizations/spatial_heatmaps/Sealed_Reflective_Crack.png"
+    },
+    {
+      "class": "Transvers Crack",
+      "file": "visualizations/spatial_heatmaps/Transvers_Crack.png"
+    },
+    {
+      "class": "Aligator Crack",
+      "file": "visualizations/spatial_heatmaps/Aligator_Crack.png"
+    },
+    {
+      "class": "Longitudinal Crack",
+      "file": "visualizations/spatial_heatmaps/Longitudinal_Crack.png"
+    },
+    {
+      "class": "pothole",
+      "file": "visualizations/spatial_heatmaps/pothole.png"
+    },
+    {
+      "class": "Sealed Block Crack",
+      "file": "visualizations/spatial_heatmaps/Sealed_Block_Crack.png"
+    },
+    {
+      "class": "Sealed Transvers Cracks",
+      "file": "visualizations/spatial_heatmaps/Sealed_Transvers_Cracks.png"
+    }
+  ]
+}

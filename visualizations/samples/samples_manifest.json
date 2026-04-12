@@ -1,0 +1,177 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c2_Sealed_Longitudinal_Crack-Sealed_Reflective_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\US 8-0-109 (85).jpg",
+      "classes": [
+        "Sealed Longitudinal Crack",
+        "Sealed Reflective Crack"
+      ],
+      "num_classes": 2,
+      "objects": 8,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c2_Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotated.png",
+      "annotation_file": "annotations/sample_01_c2_Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c5_Block_Crack-Longitudinal_Crack-Reflective_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\US169-0-440 (145).jpg",
+      "classes": [
+        "Block Crack",
+        "Longitudinal Crack",
+        "Reflective Crack",
+        "Sealed Longitudinal Crack",
+        "Sealed Reflective Crack"
+      ],
+      "num_classes": 5,
+      "objects": 9,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c5_Block_Crack-Longitudinal_Crack-Reflective_Crack_annotated.png",
+      "annotation_file": "annotations/sample_02_c5_Block_Crack-Longitudinal_Crack-Reflective_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c2_Aligator_Crack-Lane_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\I 35-90-306 (130).jpg",
+      "classes": [
+        "Aligator Crack",
+        "Lane Longitudinal Crack"
+      ],
+      "num_classes": 2,
+      "objects": 11,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c2_Aligator_Crack-Lane_Longitudinal_Crack_annotated.png",
+      "annotation_file": "annotations/sample_03_c2_Aligator_Crack-Lane_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c5_Block_Crack-Longitudinal_Crack-Sealed_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\IL 47-0-413 (24).jpg",
+      "classes": [
+        "Block Crack",
+        "Longitudinal Crack",
+        "Sealed Longitudinal Crack",
+        "Sealed Reflective Crack",
+        "Sealed Transvers Cracks"
+      ],
+      "num_classes": 5,
+      "objects": 13,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c5_Block_Crack-Longitudinal_Crack-Sealed_Longitudinal_Crack_annotated.png",
+      "annotation_file": "annotations/sample_04_c5_Block_Crack-Longitudinal_Crack-Sealed_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c3_Sealed_Block_Crack-Sealed_Longitudinal_Crack-Sealed_Reflective_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\US 8-0-109 (94).jpg",
+      "classes": [
+        "Sealed Block Crack",
+        "Sealed Longitudinal Crack",
+        "Sealed Reflective Crack"
+      ],
+      "num_classes": 3,
+      "objects": 9,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c3_Sealed_Block_Crack-Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotated.png",
+      "annotation_file": "annotations/sample_05_c3_Sealed_Block_Crack-Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c3_Block_Crack-Lane_Longitudinal_Crack-Sealed_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\IL 47-0-413 (314).jpg",
+      "classes": [
+        "Block Crack",
+        "Lane Longitudinal Crack",
+        "Sealed Longitudinal Crack"
+      ],
+      "num_classes": 3,
+      "objects": 6,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c3_Block_Crack-Lane_Longitudinal_Crack-Sealed_Longitudinal_Crack_annotated.png",
+      "annotation_file": "annotations/sample_06_c3_Block_Crack-Lane_Longitudinal_Crack-Sealed_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c4_Block_Crack-Lane_Longitudinal_Crack-Reflective_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\US50_1-411-742 (314).jpg",
+      "classes": [
+        "Block Crack",
+        "Lane Longitudinal Crack",
+        "Reflective Crack",
+        "Transvers Crack"
+      ],
+      "num_classes": 4,
+      "objects": 15,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c4_Block_Crack-Lane_Longitudinal_Crack-Reflective_Crack_annotated.png",
+      "annotation_file": "annotations/sample_07_c4_Block_Crack-Lane_Longitudinal_Crack-Reflective_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\US63_2-904-1000 (57).jpg",
+      "classes": [
+        "Aligator Crack",
+        "Block Crack",
+        "Lane Longitudinal Crack",
+        "Longitudinal Crack",
+        "Reflective Crack"
+      ],
+      "num_classes": 5,
+      "objects": 10,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotated.png",
+      "annotation_file": "annotations/sample_08_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\US65_0-544 (39).jpg",
+      "classes": [
+        "Aligator Crack",
+        "Block Crack",
+        "Lane Longitudinal Crack",
+        "Longitudinal Crack",
+        "Transvers Crack"
+      ],
+      "num_classes": 5,
+      "objects": 15,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotated.png",
+      "annotation_file": "annotations/sample_09_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c7_Aligator_Crack-Block_Crack-Longitudinal_Crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/PID/images\\IL 45-103-207 (101).jpg",
+      "classes": [
+        "Aligator Crack",
+        "Block Crack",
+        "Longitudinal Crack",
+        "Reflective Crack",
+        "Sealed Longitudinal Crack",
+        "Sealed Reflective Crack",
+        "Transvers Crack"
+      ],
+      "num_classes": 7,
+      "objects": 16,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c7_Aligator_Crack-Block_Crack-Longitudinal_Crack_annotated.png",
+      "annotation_file": "annotations/sample_10_c7_Aligator_Crack-Block_Crack-Longitudinal_Crack_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

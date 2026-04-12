@@ -1,54 +1,55 @@
 {
   "type": "treemap",
-  "title": "Class Treemap",
+  "title": "Average area of class objects on image",
   "series": [
     {
       "data": [
         {
           "x": "Sealed Longitudinal Crack",
-          "y": 13610
+          "y": 6.1754
         },
         {
           "x": "Reflective Crack",
-          "y": 12428
+          "y": 7.7419
         },
         {
           "x": "Lane Longitudinal Crack",
-          "y": 12102
+          "y": 6.0558
         },
         {
           "x": "Block Crack",
-          "y": 9709
+          "y": 15.8468
         },
         {
           "x": "Sealed Reflective Crack",
-          "y": 5910
+          "y": 7.1499
         },
         {
           "x": "Transvers Crack",
-          "y": 5343
+          "y": 3.4087
         },
         {
           "x": "Aligator Crack",
-          "y": 4838
+          "y": 8.7891
         },
         {
           "x": "Longitudinal Crack",
-          "y": 2892
+          "y": 4.6988
         },
         {
           "x": "pothole",
-          "y": 637
+          "y": 6.1077
         },
         {
           "x": "Sealed Block Crack",
-          "y": 2
+          "y": 7.5891
         },
         {
           "x": "Sealed Transvers Cracks",
-          "y": 1
+          "y": 0.9629
         }
       ]
     }
-  ]
+  ],
+  "value_unit": "%"
 }

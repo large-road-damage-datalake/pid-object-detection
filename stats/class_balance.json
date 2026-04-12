@@ -1,83 +1,96 @@
 {
   "columns": [
     "Class",
-    "Share(%)",
+    "Images",
     "Objects",
-    "Objects per image"
+    "Count on image, average",
+    "Area on image, average (%)"
   ],
   "data": [
     [
       "Sealed Longitudinal Crack",
-      20.17,
+      3022,
       13610,
-      1.881
+      4.5036,
+      6.1754
     ],
     [
       "Reflective Crack",
-      18.42,
+      4211,
       12428,
-      1.717
+      2.9513,
+      7.7419
     ],
     [
       "Lane Longitudinal Crack",
-      17.94,
+      4197,
       12102,
-      1.672
+      2.8835,
+      6.0558
     ],
     [
       "Block Crack",
-      14.39,
+      3214,
       9709,
-      1.342
+      3.0208,
+      15.8468
     ],
     [
       "Sealed Reflective Crack",
-      8.76,
+      1856,
       5910,
-      0.817
+      3.1843,
+      7.1499
     ],
     [
       "Transvers Crack",
-      7.92,
+      2222,
       5343,
-      0.738
+      2.4046,
+      3.4087
     ],
     [
       "Aligator Crack",
-      7.17,
+      1344,
       4838,
-      0.669
+      3.5997,
+      8.7891
     ],
     [
       "Longitudinal Crack",
-      4.29,
+      1457,
       2892,
-      0.4
+      1.9849,
+      4.6988
     ],
     [
       "pothole",
-      0.94,
+      228,
       637,
-      0.088
+      2.7939,
+      6.1077
     ],
     [
       "Sealed Block Crack",
-      0.0,
+      1,
       2,
-      0.0
+      2.0,
+      7.5891
     ],
     [
       "Sealed Transvers Cracks",
-      0.0,
       1,
-      0.0
+      1,
+      1.0,
+      0.9629
     ]
   ],
+  "description": "Images column counts images containing at least one object of class.",
   "options": {
     "sort": {
       "columnIndex": 2,
       "order": "desc"
     },
-    "pageSize": 50
+    "pageSize": 100
   }
 }

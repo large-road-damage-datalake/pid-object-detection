@@ -1,8 +1,8 @@
-# PID Object Detection
+# PID
 
 ## Overview
 
-PID Object Detection is a task-specific package derived from PID-Pavement-Image-Dataset.
+PID is a task-specific package derived from PID-Pavement-Image-Dataset.
 
 - Task: object_detection
 - Images: 7237

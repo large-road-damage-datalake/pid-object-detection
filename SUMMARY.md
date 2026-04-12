@@ -1,6 +1,6 @@
 # Summary
 
-- Dataset package: PID Object Detection
+- Dataset package: PID
 - Source dataset: PID-Pavement-Image-Dataset
 - Task: object_detection
 - Image count: 7237
