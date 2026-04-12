@@ -24,7 +24,10 @@
       "Lane Longitudinal Crack",
       "Sealed Longitudinal Crack",
       "pothole"
-    ]
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    }
   },
   "imaging_setup": {
     "camera": "Google Street View wide-view imagery",
@@ -115,6 +118,9 @@
     "n_annotations": 67472,
     "n_images_with_annotations": 7237,
     "average_annotations_per_image": 9.323200221086086,
+    "dataset_size": "398.65 MB",
+    "dataset_size_bytes": 418015458,
+    "dataset_file_count": 14690,
     "image_format": "voc",
     "class_distribution": {
       "Reflective Crack": 12428,
@@ -134,7 +140,10 @@
         "n_images": 7237,
         "percentage": 1.0,
         "n_images_with_annotations": 7237,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1.0,
+        "dataset_size": "398.65 MB",
+        "dataset_size_bytes": 418015458,
+        "dataset_file_count": 14690
       }
     }
   },
