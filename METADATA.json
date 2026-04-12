@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "pid-object-detection",
-    "name": "PID Object Detection",
+    "name": "PID",
     "short_name": "pid-od",
     "description": "Object detection packaging of the PID pavement image dataset with VOC box-level distress annotations.",
     "year": 2020
