@@ -34,10 +34,20 @@
     "camera_viewpoint": [
       "wide-view"
     ],
-    "resolution": "640x640 processed annotations (source varies)",
+    "resolution": "124x383, 640x640",
     "lighting_conditions": "Real-world street scenes with variable lighting and occlusion",
     "capture_height_mm": "Not reported",
-    "geotagged": true
+    "geotagged": true,
+    "resolution_details": [
+      {
+        "resolution": "124x383",
+        "count": 1
+      },
+      {
+        "resolution": "640x640",
+        "count": 7236
+      }
+    ]
   },
   "annotation_schema": [
     {
