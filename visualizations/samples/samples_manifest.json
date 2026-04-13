@@ -9,9 +9,17 @@
       ],
       "num_classes": 2,
       "objects": 8,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_01_c2_Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_01_c2_Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -27,9 +35,17 @@
       ],
       "num_classes": 5,
       "objects": 9,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_02_c5_Block_Crack-Longitudinal_Crack-Reflective_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_02_c5_Block_Crack-Longitudinal_Crack-Reflective_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -42,9 +58,17 @@
       ],
       "num_classes": 2,
       "objects": 11,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_03_c2_Aligator_Crack-Lane_Longitudinal_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_03_c2_Aligator_Crack-Lane_Longitudinal_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -60,9 +84,17 @@
       ],
       "num_classes": 5,
       "objects": 13,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_04_c5_Block_Crack-Longitudinal_Crack-Sealed_Longitudinal_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_04_c5_Block_Crack-Longitudinal_Crack-Sealed_Longitudinal_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -76,9 +108,17 @@
       ],
       "num_classes": 3,
       "objects": 9,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_05_c3_Sealed_Block_Crack-Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_05_c3_Sealed_Block_Crack-Sealed_Longitudinal_Crack-Sealed_Reflective_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -92,9 +132,17 @@
       ],
       "num_classes": 3,
       "objects": 6,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_06_c3_Block_Crack-Lane_Longitudinal_Crack-Sealed_Longitudinal_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_06_c3_Block_Crack-Lane_Longitudinal_Crack-Sealed_Longitudinal_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -109,9 +157,17 @@
       ],
       "num_classes": 4,
       "objects": 15,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_07_c4_Block_Crack-Lane_Longitudinal_Crack-Reflective_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_07_c4_Block_Crack-Lane_Longitudinal_Crack-Reflective_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -127,9 +183,17 @@
       ],
       "num_classes": 5,
       "objects": 10,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_08_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_08_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -145,9 +209,17 @@
       ],
       "num_classes": 5,
       "objects": 15,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_09_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_09_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack_annotation.xml",
       "slider_ready": true
     },
@@ -165,9 +237,17 @@
       ],
       "num_classes": 7,
       "objects": 16,
+      "image_size": {
+        "width": 640,
+        "height": 640
+      },
+      "resized_from": {
+        "width": 640,
+        "height": 640
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_10_c7_Aligator_Crack-Block_Crack-Longitudinal_Crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_10_c7_Aligator_Crack-Block_Crack-Longitudinal_Crack_annotation.xml",
       "slider_ready": true
     }
