@@ -174,22 +174,22 @@
   "authors": [
     {
       "name": "Hamed Majidifard",
-      "affiliation": "University of Illinois Urbana-Champaign",
+      "affiliation": "University of Missouri-Columbia",
       "role": "Dataset Creator"
     },
     {
       "name": "Peng Jin",
-      "affiliation": "University of Illinois Urbana-Champaign",
+      "affiliation": "University of Missouri-Columbia",
       "role": "Dataset Creator"
     },
     {
       "name": "William G. Buttlar",
-      "affiliation": "University of Illinois Urbana-Champaign",
+      "affiliation": "University of Missouri-Columbia",
       "role": "Dataset Creator"
     },
     {
       "name": "Yaw Adu-Gyamfi",
-      "affiliation": "University of Missouri",
+      "affiliation": "University of Missouri-Columbia",
       "role": "Dataset Creator"
     }
   ],
