@@ -13,21 +13,13 @@
       "object_detection"
     ],
     "damage_types": [
-      "Reflective Crack",
-      "Transvers Crack",
-      "Block Crack",
-      "Longitudinal Crack",
-      "Aligator Crack",
-      "Sealed Reflective Crack",
-      "Sealed Block Crack",
-      "Sealed Transvers Cracks",
-      "Lane Longitudinal Crack",
-      "Sealed Longitudinal Crack",
+      "crack",
       "pothole"
     ],
     "task_classification": {
       "primary_task": "object_detection"
-    }
+    },
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Google Street View wide-view imagery",
@@ -58,67 +50,89 @@
           "id": 1,
           "name": "Reflective Crack",
           "description": "PID distress class: Reflective Crack",
-          "color": "#254361"
+          "color": "#254361",
+          "canonical_name": "crack.reflective",
+          "instances": 12428
         },
         {
           "id": 2,
           "name": "Transvers Crack",
           "description": "PID distress class: Transvers Crack",
-          "color": "#4A86C2"
+          "color": "#4A86C2",
+          "canonical_name": "crack.transverse",
+          "instances": 5343
         },
         {
           "id": 3,
           "name": "Block Crack",
           "description": "PID distress class: Block Crack",
-          "color": "#6FC924"
+          "color": "#6FC924",
+          "canonical_name": "crack.block",
+          "instances": 9709
         },
         {
           "id": 4,
           "name": "Longitudinal Crack",
           "description": "PID distress class: Longitudinal Crack",
-          "color": "#940D85"
+          "color": "#940D85",
+          "canonical_name": "crack.longitudinal",
+          "instances": 2892
         },
         {
           "id": 5,
           "name": "Aligator Crack",
           "description": "PID distress class: Aligator Crack",
-          "color": "#B950E6"
+          "color": "#B950E6",
+          "canonical_name": "crack.alligator",
+          "instances": 4838
         },
         {
           "id": 6,
           "name": "Sealed Reflective Crack",
           "description": "PID distress class: Sealed Reflective Crack",
-          "color": "#DE9348"
+          "color": "#DE9348",
+          "canonical_name": "crack.sealed",
+          "instances": 5910
         },
         {
           "id": 7,
           "name": "Sealed Block Crack",
           "description": "PID distress class: Sealed Block Crack",
-          "color": "#04D6A9"
+          "color": "#04D6A9",
+          "canonical_name": "crack.sealed",
+          "instances": 2
         },
         {
           "id": 8,
           "name": "Sealed Transvers Cracks",
           "description": "PID distress class: Sealed Transvers Cracks",
-          "color": "#291A0B"
+          "color": "#291A0B",
+          "canonical_name": "crack.sealed",
+          "instances": 1
         },
         {
           "id": 9,
           "name": "Lane Longitudinal Crack",
           "description": "PID distress class: Lane Longitudinal Crack",
-          "color": "#4E5D6C"
+          "color": "#4E5D6C",
+          "canonical_name": "crack.longitudinal",
+          "instances": 12102
         },
         {
           "id": 10,
           "name": "Sealed Longitudinal Crack",
           "description": "PID distress class: Sealed Longitudinal Crack",
-          "color": "#73A0CD"
+          "color": "#73A0CD",
+          "canonical_name": "crack.sealed",
+          "instances": 13610
         },
         {
           "id": 11,
           "name": "pothole",
           "description": "PID distress class: pothole",
-          "color": "#98E32F"
+          "color": "#98E32F",
+          "canonical_name": "pothole",
+          "instances": 637
         }
       ]
     }
@@ -148,9 +162,9 @@
     "split": {
       "data": {
         "n_images": 7237,
-        "percentage": 1.0,
+        "percentage": 1,
         "n_images_with_annotations": 7237,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "398.65 MB",
         "dataset_size_bytes": 418015458,
         "dataset_file_count": 14690
@@ -216,5 +230,142 @@
     "article_title": "PID: A New Benchmark Dataset to Classify and Densify Pavement Distresses",
     "journal": "Transportation Research Record",
     "year": 2020
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "alligator",
+          "Alligator crack",
+          "Aligator Crack"
+        ],
+        "source_labels": [
+          "Aligator Crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.block",
+        "display_name": "Block Crack",
+        "damage_family": "crack",
+        "damage_subtype": "block",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "Block crack"
+        ],
+        "source_labels": [
+          "Block Crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.longitudinal",
+        "display_name": "Longitudinal Crack",
+        "damage_family": "crack",
+        "damage_subtype": "longitudinal",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "longitudinal",
+          "Longitudinal crack",
+          "Lane Longitudinal Crack"
+        ],
+        "source_labels": [
+          "Longitudinal Crack",
+          "Lane Longitudinal Crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.reflective",
+        "display_name": "Reflective Crack",
+        "damage_family": "crack",
+        "damage_subtype": "reflective",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "Reflective Crack"
+        ],
+        "source_labels": [
+          "Reflective Crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.sealed",
+        "display_name": "Sealed Crack",
+        "damage_family": "crack",
+        "damage_subtype": "sealed",
+        "role": "repair",
+        "is_damage_target": false,
+        "aliases": [
+          "sealed",
+          "sealed_crack",
+          "Sealed Longitudinal Crack",
+          "Sealed Reflective Crack",
+          "Sealed Block Crack",
+          "Sealed Transvers Cracks"
+        ],
+        "source_labels": [
+          "Sealed Reflective Crack",
+          "Sealed Block Crack",
+          "Sealed Transvers Cracks",
+          "Sealed Longitudinal Crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.transverse",
+        "display_name": "Transverse Crack",
+        "damage_family": "crack",
+        "damage_subtype": "transverse",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "transverse",
+          "Transverse crack",
+          "Transvers Crack"
+        ],
+        "source_labels": [
+          "Transvers Crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole"
+        ],
+        "source_labels": [
+          "pothole"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "unresolved_labels": []
   }
 }
