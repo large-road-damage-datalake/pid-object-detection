@@ -232,7 +232,7 @@
     "year": 2020
   },
   "class_taxonomy": {
-    "version": "road_damage_v1",
+    "version": "road_damage_v2",
     "classes": [
       {
         "canonical_name": "crack.alligator",
@@ -240,6 +240,9 @@
         "damage_family": "crack",
         "damage_subtype": "alligator",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "alligator",
@@ -249,8 +252,10 @@
         "source_labels": [
           "Aligator Crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.block",
@@ -258,15 +263,21 @@
         "damage_family": "crack",
         "damage_subtype": "block",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "Block crack"
+          "Block crack",
+          "Sealed Block Crack"
         ],
         "source_labels": [
           "Block Crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.longitudinal",
@@ -274,18 +285,24 @@
         "damage_family": "crack",
         "damage_subtype": "longitudinal",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "longitudinal",
           "Longitudinal crack",
-          "Lane Longitudinal Crack"
+          "Lane Longitudinal Crack",
+          "Sealed Longitudinal Crack"
         ],
         "source_labels": [
           "Longitudinal Crack",
           "Lane Longitudinal Crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.reflective",
@@ -293,30 +310,39 @@
         "damage_family": "crack",
         "damage_subtype": "reflective",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "Reflective Crack"
+          "Reflective Crack",
+          "Sealed Reflective Crack"
         ],
         "source_labels": [
           "Reflective Crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.sealed",
         "display_name": "Sealed Crack",
         "damage_family": "crack",
         "damage_subtype": "sealed",
-        "role": "repair",
-        "is_damage_target": false,
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "provisional",
+        "is_damage_target": true,
         "aliases": [
           "sealed",
           "sealed_crack",
-          "Sealed Longitudinal Crack",
           "Sealed Reflective Crack",
           "Sealed Block Crack",
-          "Sealed Transvers Cracks"
+          "Sealed Transvers Cracks",
+          "Sealed Longitudinal Crack"
         ],
         "source_labels": [
           "Sealed Reflective Crack",
@@ -324,8 +350,13 @@
           "Sealed Transvers Cracks",
           "Sealed Longitudinal Crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high",
+        "resolved_attributes": {
+          "treatment_state": "sealed"
+        }
       },
       {
         "canonical_name": "crack.transverse",
@@ -333,17 +364,24 @@
         "damage_family": "crack",
         "damage_subtype": "transverse",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "transverse",
           "Transverse crack",
-          "Transvers Crack"
+          "Transvers Crack",
+          "Sealed Transvers Cracks",
+          "Sealed Transverse Crack"
         ],
         "source_labels": [
           "Transvers Crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "pothole",
@@ -351,6 +389,9 @@
         "damage_family": "pothole",
         "damage_subtype": "generic",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "pothole"
@@ -358,8 +399,10 @@
         "source_labels": [
           "pothole"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
