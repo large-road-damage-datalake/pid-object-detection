@@ -7,7 +7,7 @@ PID is a task-specific package derived from PID-Pavement-Image-Dataset.
 - Task: object_detection
 - Images: 7237
 - Annotations: 67472
-- Classes: 11 (Reflective Crack, Lane Longitudinal Crack, Transvers Crack, Sealed Reflective Crack, Aligator Crack, pothole, Block Crack, Longitudinal Crack, Sealed Longitudinal Crack, Sealed Transvers Cracks, Sealed Block Crack)
+- Classes: 11 (Reflective Crack, Lane Longitudinal Crack, Transverse Crack, Sealed Reflective Crack, Alligator Crack, pothole, Block Crack, Longitudinal Crack, Sealed Longitudinal Crack, Sealed Transverse Crack, Sealed Block Crack)
 - Annotation format: PASCAL VOC XML bounding boxes
 
 The source dataset paper reports 7,237 annotated wide-view images for U.S. pavement distress analysis.
@@ -17,14 +17,14 @@ The source dataset paper reports 7,237 annotated wide-view images for U.S. pavem
 - Name: PID-Pavement-Image-Dataset
 - Source URL: https://github.com/Nan2020/PID-Pavement-Image-Dataset
 - Article DOI: 10.1177/0361198120907283
-- Article title: PID: A New Benchmark Dataset to Classify and Densify Pavement Distresses
+- Article title: Pavement Image Datasets: A New Benchmark Dataset to Classify and Densify Pavement Distresses
 
 ## Authors
 
 - Hamed Majidifard
 - Peng Jin
-- William G. Buttlar
 - Yaw Adu-Gyamfi
+- William G. Buttlar
 
 ## License
 

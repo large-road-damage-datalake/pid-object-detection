@@ -23,12 +23,12 @@
       "file": "visualizations/spatial_heatmaps/Sealed_Reflective_Crack.png"
     },
     {
-      "class": "Transvers Crack",
-      "file": "visualizations/spatial_heatmaps/Transvers_Crack.png"
+      "class": "Transverse Crack",
+      "file": "visualizations/spatial_heatmaps/Transverse_Crack.png"
     },
     {
-      "class": "Aligator Crack",
-      "file": "visualizations/spatial_heatmaps/Aligator_Crack.png"
+      "class": "Alligator Crack",
+      "file": "visualizations/spatial_heatmaps/Alligator_Crack.png"
     },
     {
       "class": "Longitudinal Crack",
@@ -43,8 +43,8 @@
       "file": "visualizations/spatial_heatmaps/Sealed_Block_Crack.png"
     },
     {
-      "class": "Sealed Transvers Cracks",
-      "file": "visualizations/spatial_heatmaps/Sealed_Transvers_Cracks.png"
+      "class": "Sealed Transverse Crack",
+      "file": "visualizations/spatial_heatmaps/Sealed_Transverse_Crack.png"
     }
   ]
 }

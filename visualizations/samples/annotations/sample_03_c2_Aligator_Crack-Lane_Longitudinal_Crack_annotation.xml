@@ -13,7 +13,7 @@
   </size>
   <segmented>0</segmented>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -25,7 +25,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -37,7 +37,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -73,7 +73,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -85,7 +85,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -97,7 +97,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -109,7 +109,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -121,7 +121,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>

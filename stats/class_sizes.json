@@ -16,20 +16,20 @@
     [
       "Sealed Longitudinal Crack",
       13610,
-      1.3712,
-      37.0757,
+      1.3648,
+      12.3848,
       0.0562,
       14.0,
       2.1875,
       447.0,
       69.8438,
       103.76,
-      16.2202
+      16.2132
     ],
     [
       "Reflective Crack",
       12428,
-      2.6232,
+      2.6188,
       33.9844,
       0.0168,
       5.0,
@@ -37,7 +37,7 @@
       400.0,
       62.5,
       51.58,
-      8.0622
+      8.0602
     ],
     [
       "Lane Longitudinal Crack",
@@ -79,7 +79,7 @@
       7.757
     ],
     [
-      "Transvers Crack",
+      "Transverse Crack",
       5343,
       1.4176,
       18.3779,
@@ -92,7 +92,7 @@
       7.6246
     ],
     [
-      "Aligator Crack",
+      "Alligator Crack",
       4838,
       2.4416,
       17.5635,
@@ -144,7 +144,7 @@
       12.4219
     ],
     [
-      "Sealed Transvers Cracks",
+      "Sealed Transverse Crack",
       1,
       0.9629,
       0.9629,

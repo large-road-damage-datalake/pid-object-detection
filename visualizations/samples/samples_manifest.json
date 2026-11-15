@@ -53,7 +53,7 @@
       "file": "sample_03_c2_Aligator_Crack-Lane_Longitudinal_Crack.jpg",
       "source": "D:/PhD/Datasets/object_detection/PID/images\\I 35-90-306 (130).jpg",
       "classes": [
-        "Aligator Crack",
+        "Alligator Crack",
         "Lane Longitudinal Crack"
       ],
       "num_classes": 2,
@@ -80,7 +80,7 @@
         "Longitudinal Crack",
         "Sealed Longitudinal Crack",
         "Sealed Reflective Crack",
-        "Sealed Transvers Cracks"
+        "Sealed Transverse Crack"
       ],
       "num_classes": 5,
       "objects": 13,
@@ -153,7 +153,7 @@
         "Block Crack",
         "Lane Longitudinal Crack",
         "Reflective Crack",
-        "Transvers Crack"
+        "Transverse Crack"
       ],
       "num_classes": 4,
       "objects": 15,
@@ -175,7 +175,7 @@
       "file": "sample_08_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack.jpg",
       "source": "D:/PhD/Datasets/object_detection/PID/images\\US63_2-904-1000 (57).jpg",
       "classes": [
-        "Aligator Crack",
+        "Alligator Crack",
         "Block Crack",
         "Lane Longitudinal Crack",
         "Longitudinal Crack",
@@ -201,11 +201,11 @@
       "file": "sample_09_c5_Aligator_Crack-Block_Crack-Lane_Longitudinal_Crack.jpg",
       "source": "D:/PhD/Datasets/object_detection/PID/images\\US65_0-544 (39).jpg",
       "classes": [
-        "Aligator Crack",
+        "Alligator Crack",
         "Block Crack",
         "Lane Longitudinal Crack",
         "Longitudinal Crack",
-        "Transvers Crack"
+        "Transverse Crack"
       ],
       "num_classes": 5,
       "objects": 15,
@@ -227,13 +227,13 @@
       "file": "sample_10_c7_Aligator_Crack-Block_Crack-Longitudinal_Crack.jpg",
       "source": "D:/PhD/Datasets/object_detection/PID/images\\IL 45-103-207 (101).jpg",
       "classes": [
-        "Aligator Crack",
+        "Alligator Crack",
         "Block Crack",
         "Longitudinal Crack",
         "Reflective Crack",
         "Sealed Longitudinal Crack",
         "Sealed Reflective Crack",
-        "Transvers Crack"
+        "Transverse Crack"
       ],
       "num_classes": 7,
       "objects": 16,

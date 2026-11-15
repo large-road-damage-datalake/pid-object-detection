@@ -26,12 +26,12 @@
     "Lane Longitudinal Crack",
     "Block Crack",
     "Sealed Reflective Crack",
-    "Transvers Crack",
-    "Aligator Crack",
+    "Transverse Crack",
+    "Alligator Crack",
     "Longitudinal Crack",
     "pothole",
     "Sealed Block Crack",
-    "Sealed Transvers Cracks"
+    "Sealed Transverse Crack"
   ],
   "z": [
     [

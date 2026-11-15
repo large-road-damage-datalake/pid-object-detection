@@ -6,11 +6,11 @@
       "data": [
         {
           "x": "Sealed Longitudinal Crack",
-          "y": 6.1754
+          "y": 6.1464
         },
         {
           "x": "Reflective Crack",
-          "y": 7.7419
+          "y": 7.7289
         },
         {
           "x": "Lane Longitudinal Crack",
@@ -25,11 +25,11 @@
           "y": 7.1499
         },
         {
-          "x": "Transvers Crack",
+          "x": "Transverse Crack",
           "y": 3.4087
         },
         {
-          "x": "Aligator Crack",
+          "x": "Alligator Crack",
           "y": 8.7891
         },
         {
@@ -45,7 +45,7 @@
           "y": 7.5891
         },
         {
-          "x": "Sealed Transvers Cracks",
+          "x": "Sealed Transverse Crack",
           "y": 0.9629
         }
       ]

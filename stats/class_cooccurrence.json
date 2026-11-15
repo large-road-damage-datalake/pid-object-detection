@@ -1,7 +1,7 @@
 {
   "type": "matrix",
   "labels": [
-    "Aligator Crack",
+    "Alligator Crack",
     "Block Crack",
     "Lane Longitudinal Crack",
     "Longitudinal Crack",
@@ -9,8 +9,8 @@
     "Sealed Block Crack",
     "Sealed Longitudinal Crack",
     "Sealed Reflective Crack",
-    "Sealed Transvers Cracks",
-    "Transvers Crack",
+    "Sealed Transverse Crack",
+    "Transverse Crack",
     "pothole"
   ],
   "data": [

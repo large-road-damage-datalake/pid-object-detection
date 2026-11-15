@@ -25,7 +25,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Transvers Crack</name>
+    <name>Transverse Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
@@ -181,7 +181,7 @@
     </bndbox>
   </object>
   <object>
-    <name>Aligator Crack</name>
+    <name>Alligator Crack</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
